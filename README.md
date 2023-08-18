@@ -33,7 +33,10 @@ cd terraform
 terraform apply
 ```
 
+Connect to the cluster.
+
 Deploy the Azure Voting App.
+
 ```bash
 cd ../kubernetes/terraform
 kubectl apply -f azure-vote-all-in-one-redis.yaml
