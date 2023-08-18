@@ -2,7 +2,7 @@
 $resourceGroupName = "rg-friday-weu"
 $location = "westeurope"
 $storageAccountSuffix = "stfriday"
-$random = ( Get-Random -Minimum 0 -Maximum 99999).ToString('000000')
+$random = (Get-Random -Minimum 0 -Maximum 99999).ToString('000000')
 $storageAccountName = $storageAccountSuffix + $random
 
 # Create the resource group.
