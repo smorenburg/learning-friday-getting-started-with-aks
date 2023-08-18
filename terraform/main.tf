@@ -13,7 +13,7 @@ terraform {
 
   backend "azurerm" {
     resource_group_name  = "rg-friday-weu"
-    storage_account_name = "stfriday091293"
+    storage_account_name = "stfridayxxxxxx"
     container_name       = "tfstate"
     key                  = "dev.tfstate"
   }
